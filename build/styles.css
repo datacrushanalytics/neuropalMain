@@ -1,0 +1,552 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+.main{
+
+    height: 650px;
+    
+}
+
+
+.video-container {
+    position: relative;
+   
+    /* overflow: hidden; */
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 92%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1; 
+}
+.navbar1{
+    height: 74px;
+    width: 1024px;
+    display: flex;
+    color: white;
+    background-color: rgba(45, 45, 45, 0.985);
+    opacity: 100%;
+   border-radius: 40px;
+   padding-top: 40px;
+   padding-left: 128px;
+   padding-right: 128px;
+   margin-top: 40px;
+
+
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.hero1{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    padding-left: 40px;
+}
+.login {
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    padding-left: 34px;
+}
+.navbar-nav{
+
+    margin-left: 40px;
+}
+.mainTitle{
+    font-size:42px;
+    font-weight: 700;
+    padding-top: 50px;
+    opacity: 0;
+    position: relative;
+    animation: fadeIn 1s forwards;
+
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      top: -100px;
+    }
+    100% {
+      opacity: 1;
+      top: 18%;
+    }
+  }
+
+.readMore{
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px white solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.hero2{
+    height: 500px;
+    /* background-color: #141414; */
+}
+.titles{
+    color: white; 
+    display: flex;
+     flex-direction: column;
+      align-items: center;
+       justify-content: center; 
+       margin-top: 100px;
+       height: 192px;
+}
+.aboutTitle{
+color: white;
+
+
+}
+
+.title2{
+    padding-top: 40px;
+    height: 48px;
+    text-align: center;
+}
+.leftAbout{
+    width: 370px;
+    margin-top:80px;
+}
+.future{
+    color: white;
+    font-size: 1.8rem;
+    line-height: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+.rightAbout{
+    width: 800px;
+    margin-left: 70px;
+    justify-content: center;
+}
+.info{
+    color: white;
+    font-size: 1.08rem;
+    padding-top: 70px;
+    text-align: center;
+
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.services{
+    height: 550px;
+    /* background-color: #141414; */
+   color: white;
+   text-shadow: 0.5px 0.5px #141414;
+}
+.servs{
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bolder;
+}
+.servs h3{
+    color: #5CE1E6;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bolder;
+}
+.servTitle{
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.servTitle h1{
+    text-shadow: 1px 1px #141414;
+    
+}
+.serv1{
+    width: 50%;
+    margin-top: 80px;
+    padding-left: 40px;
+    
+    text-align: center;
+    
+}
+.values{
+    height: 600px;
+    /* background-color: #141414; */
+   color: white;
+   text-shadow: 0.5px 0.5px #141414;
+}
+.valTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.valTitle h1{
+    text-shadow: 1px 1px #141414;
+}
+.val1v{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.val1{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 190px;
+}
+.v2{
+    text-align: center;
+}
+.v3{
+    text-align: left;
+}
+.vals{
+    margin-top: 80px;
+}
+.advantages{
+    height: 670px;
+    
+}
+.advTitle{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-top: 40px;
+    margin-top: 0px;
+}
+.advTitle h1{
+    text-shadow: 1px 1px #141414;
+}
+.advList{
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.advList p{
+    font-size: 1.1rem;
+    line-height: 30px;
+    border: 1px solid #e5e7eb;
+    border-radius: 55px;
+    width: 100%;
+    padding: 13px;
+    
+}
+.advP:hover{
+    border: 2px solid #5CE1E6;
+    
+
+}
+.nav-item :hover{
+    text-decoration: underline;
+}
+.footer{
+    height: 1200px;
+    /* background-color: #141414; */
+    color: white;
+}
+.footerMain{
+  
+    display: flex;
+}
+.footTitle{
+    color: white;
+   font-size: 4rem;
+   word-spacing: 4px;
+   font-weight: 700;
+    padding-left: 120px;
+    padding-top: 140px;
+}
+.para{
+    padding-left: 120px;
+    width: 560px;
+    font-size: 1.5rem;
+    
+}
+.foot2{
+    padding-top: 210px;
+    padding-left: 140px;
+   
+}
+.gradient{
+   
+    background: linear-gradient(0deg, #5CE1E6, #141414 40%);
+   
+}
+#wabtn{
+    background-color: rgb(32, 220, 32); 
+    width: 270px;
+    height: 100px;
+    color: white;
+   
+    font-weight: 700;
+    display: flex;
+    border-radius: 40px;
+    padding-left: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+#wabtn p{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    padding-top: 8px;
+    text-decoration: none;
+}
+.social-icons{
+    font-size: 1.7rem;
+    padding-left: 95px;
+
+
+
+}
+.footLast{
+    /* background-color: #141414; */
+    
+    padding-top: 215px;
+}
+.footLogo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+.footList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.footList p{
+    padding-left: 40px;
+    font-size: 1.3rem;
+   
+}
+.fp
+{
+    text-decoration: underline;
+}
+#servList{
+    visibility: hidden;
+}
+.copy{
+    color: white; 
+    padding-left: 120px; 
+    padding-top: 150px; 
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+.terms{
+    padding-top: 153px;
+     display: flex;
+      padding-left: 370px;
+      font-weight: 500;
+}
+.privacy{
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+#advAni{
+    position: relative;
+}
+
+.fade-in-text {
+    opacity: 0;
+    transform: translateY(-80px); 
+    transition: opacity 1s, transform 1s; 
+}
+
+.fade-in-text.fade-in {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.fade-in-texts {
+    opacity: 0;
+    transform: translateY(80px); 
+    transition: opacity 1s, transform 1s; 
+}
+
+.fade-in-texts.fade-in {
+    opacity: 1;
+    transform: translateY(0); 
+}
+
+.mobSelling{
+    visibility: hidden;
+    display: none;
+
+}
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar-nav{
+        margin-left: 0px;
+    }
+.mainTitle{
+    font-size: 29px;
+    line-height: 39px;
+    padding-top: 70px;
+
+}
+.titles{
+    padding: 30px;
+    margin-top: 1px;
+}
+.titBr{
+    visibility: hidden;
+}
+.readMore{
+    margin-top: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.main{
+    height: 470px;
+   
+}
+.about{
+    flex-direction: column;
+    
+}
+.hero2{
+    height: auto;
+}
+.rightAbout{
+      width: auto;
+      margin-left: 10px;
+
+}
+.servTitle{
+padding-top: 35px;
+}
+.simg{
+    height: 400px;
+}
+.serv1{
+    padding-left: 8px;
+    
+}
+#servList{
+    display: flex;
+    visibility: visible;
+
+}
+.servs{
+     visibility: hidden;    
+     display: none;
+}
+.services{
+    height: 1280px;
+}
+.advList{
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.advantages{
+    height: 910px;
+}
+.footTitle{
+    padding-left: 40px;
+
+}
+.para{
+    padding-left: 40px;
+    width: 350px;
+    padding-right: 0px;
+    text-align: center;
+}
+.footerMain{
+    flex-direction: column;
+}
+.foot2{
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.footList p{
+    padding-left: 15px;
+    font-size: 1rem;
+   
+}
+.copy{
+    color: white; 
+    padding-left: 10px; 
+    padding-top: 150px; 
+    font-size: 1rem;
+    text-align: center;
+
+
+}
+.terms{
+    padding-top: 153px;
+     display: flex;
+     text-align: center;
+      padding-left: 10px;
+}
+.privacy{
+    padding-left: 17px;
+    text-align: center;
+}
+.mobSelling{
+    
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.sellingImg{
+    visibility: hidden;
+    display: none;
+}
+.chat{
+    padding-top: 40px;
+    padding-left: 17px;
+}
+.ar{
+    padding-top: 40px;
+    padding-left: 17px;
+}
+.block{
+    padding-top: 40px;
+    padding-left: 17px;
+}
+
+
+
+
+}
